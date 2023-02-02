@@ -22,6 +22,14 @@ function App() {
         <Route path='/movies' element={<Movies/>} />
         <Route path='/weather' element={<Weather/>} />
       </Routes>
+      <section className=' h-36 bg-slate-100 '>
+          <footer className="text-center py-5 pt-8 text-sky-700 text-sm">
+            <h4 className=''>
+              Copyright &copy; {new Date().getFullYear()} BravinDan All Rights
+              Reserved.
+            </h4>
+          </footer>
+      </section>
     </BrowserRouter>
     </div>
    
