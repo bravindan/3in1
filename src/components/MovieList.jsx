@@ -16,7 +16,7 @@ function App() {
       <h1 className='text-2xl font-bold text-center p-2'>Popular Movies</h1>
       <div className='grid grid-cols-4 gap-4 m-4'>
         {movies.map(movie => (
-          <div key={movie.id} className="p-2 bg-slate-200 rounded-md transition duration-300 ease-in-out hover:bg-red-100 transform hover:-translate-y-1 hover:scale-105 ...">
+          <div key={movie.id} className="col-span-4 md:col-span-1 p-2 bg-slate-200 rounded-md transition duration-300 ease-in-out hover:bg-red-100 transform hover:-translate-y-1 hover:scale-105 ...">
 
             <div>
                 <img src={"https://image.tmdb.org/t/p/w500" + movie.backdrop_path} alt={movie.poster_path} className="rounded-md"/>
