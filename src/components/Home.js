@@ -11,9 +11,9 @@ export default function Home() {
         <header className="">
           <h1 className="text-3xl">Collections</h1>
         </header>
-        <div class="flex flex-wrap mx-4">
+        <div class="flex flex-wrap mx-4 transition ">
           <div class="w-full md:w-1/3 px-4 py-6">
-            <div class="bg-slate-100 rounded-lg shadow-lg overflow-hidden">
+            <div class="bg-slate-100 rounded-lg shadow-lg overflow-hidden duration-300 ease-in-out hover:translate-y-1 hover:scale-100 ...">
               <div class="p-6">
                 <h3 class="text-xl font-bold mb-4 text-center">
                   Weather Forecast
@@ -27,8 +27,7 @@ export default function Home() {
                   humidity, wind speed, and more, for your current location or
                   any other location of your choice.You'll always be in the know when of the weather.
                 </p>
-                {/* <button class="bg-blue-500 text-white px-4 py-2 rounded-full" onClick={window.href=}>Open</button> */}
-                <p className="text-sky-600 underline text-center py-3">
+                <p className="text-sky-600 underline text-center py-3  hover:bg-sky-500 hover:text-white duration-500 rounded-md ">
                
 
                   <Link to="/weather" element={<Weather />}>
@@ -40,7 +39,7 @@ export default function Home() {
             </div>
           </div>
           <div class="w-full md:w-1/3 px-4 py-6">
-            <div class="bg-slate-100 rounded-lg shadow-lg overflow-hidden">
+            <div class="bg-slate-100 rounded-lg shadow-lg overflow-hidden duration-300 ease-in-out hover:translate-y-1 hover:scale-100 ...">
               <div class="p-6">
                 <h3 class="text-xl font-bold mb-4 text-center">Movies</h3>
                 <p class="text-gray-700 mb-4">
@@ -53,7 +52,7 @@ export default function Home() {
                   movies. With our app, you'll have access to a vast collection
                   of movies that you can stream anytime, anywhere. 
                 </p>
-                <p className="text-sky-600 underline text-center py-3">
+                <p className="text-sky-600 underline text-center py-3 hover:bg-sky-500 hover:text-white duration-500 rounded-md ">
                   <Link to="/movies" element={<Movies />}>
                     Open
                   </Link>
@@ -62,7 +61,7 @@ export default function Home() {
             </div>
           </div>
           <div class="w-full md:w-1/3 px-4 py-6">
-            <div class="bg-slate-100 rounded-lg shadow-lg overflow-hidden">
+            <div class="bg-slate-100 rounded-lg shadow-lg overflow-hidden duration-300 ease-in-out hover:translate-y-1 hover:scale-100 ...">
               <div class="p-6">
                 <h3 class="text-xl font-bold mb-4 text-center">News</h3>
                 <p class="text-gray-700 mb-4">
@@ -72,7 +71,7 @@ export default function Home() {
                   networks, and online publications, ensuring that users have
                   access to a diverse range of perspectives and opinions. With our app, you'll have access to a wide range of news sources, and you'll be able to customize your news feed to suit your interests and preferences.
                 </p>
-                <p className="text-sky-600 underline text-center py-3">
+                <p className="text-sky-600 underline text-center py-3  hover:bg-sky-500 hover:text-white duration-500 rounded-md ">
 
                   <Link to="/news" element={<News />}>
                     Open
