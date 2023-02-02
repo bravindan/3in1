@@ -23,8 +23,8 @@ export default function Home() {
                   provides accurate and up-to-date weather information to users.
                   The app features a clean and intuitive interface that makes it
                   easy to access the information you need.With our app, you can
-                  view the current weather conditions, including temperature,
-                  humidity, wind speed, and more, for your current location or
+                  view the current weather conditions,including temperature,
+                  humidity,wind speed,and more,for your location or
                   any other location of your choice.You'll always be in the know when of the weather.
                 </p>
                 <p className="text-sky-600 underline text-center py-3  hover:bg-sky-500 hover:text-white duration-500 rounded-md ">
